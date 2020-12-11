@@ -102,7 +102,7 @@ windower.register_event('addon command', function(...)
             end
 
         elseif c == 'list' then
-            table.print(block_me)
+
             if display:visible() then
                 display:hide()
 
